@@ -1,0 +1,31 @@
+{
+  "name": "plex-downloader",
+  "version": "1.0.0",
+  "description": "A package for programatically download and store content for Plex servers",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pablogtrz/plex-downloader.git"
+  },
+  "keywords": [
+    "plex",
+    "download",
+    "donwloader"
+  ],
+  "author": "Pablo Gutiérrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pablogtrz/plex-downloader/issues"
+  },
+  "homepage": "https://github.com/pablogtrz/plex-downloader#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "rollup": "^4.21.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
